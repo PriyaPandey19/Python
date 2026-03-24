@@ -37,3 +37,9 @@ print("Kelvin value:",kelvin)
 
 
 #Bill split calculator
+billAmount = int(input("Enter the bill amount :"))
+frnds = int(input("Enter the total no. of frnds :"))
+
+splitAmount = billAmount/frnds
+print("Eack will pay:", splitAmount)
+
