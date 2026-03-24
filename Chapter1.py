@@ -8,7 +8,7 @@ print("Hello", username)
 
 #calculation the area of circle
 
-radius = float(input("Enter thr radius:"))
+radius = int(input("Enter thr radius:"))
 pie = 3.14
 area = pie * radius * radius
 print("The area of circle", area)
