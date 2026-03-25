@@ -39,7 +39,17 @@ print(str5.replace("pandey", "#"))
 print(str5.count("a"))
 
 
-str4 = input("Enter your food item :")
+str6 = input("Enter the sentence :")
+lowercase = str6.lower()
+replaceUnderscore = str6.replace(" ", "_")
+print(lowercase)
+print(replaceUnderscore)
 
 
-
+#emoji coverter
+msg = input("Enter your message :")
+msg = msg.replace(":)", "😀")
+msg = msg.replace(":(","🙁")
+msg = msg.replace(":D","😆")
+msg = msg.replace(";)","😉")
+print(msg)                  
