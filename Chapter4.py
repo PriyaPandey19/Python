@@ -32,3 +32,16 @@ print(marks1)
 marks1.remove(100)
 print(marks1)
 marks1.insert(1,100)
+
+#make list
+food1 = input("Enter food 1:")
+food2 = input("Enter food 2:")
+food3 = input("Enter food 3:")
+
+foodList = []
+foodList.append(food1)
+foodList.append(food2)
+foodList.append(food3)
+
+print(foodList)
+print(len(foodList))
