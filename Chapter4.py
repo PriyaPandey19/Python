@@ -15,4 +15,20 @@ print(len(food))
 
 print("First Value of the last:", food[0])
 print("Third Value of the list:", food[3])
-#hw
+
+
+marks1= [99, 100, 90, 95]
+print(marks1)
+
+print(marks1[1:3])
+print(max(marks1))
+print(min(marks1))
+marks1.append(92)
+print(marks1)
+marks1.sort()
+print(marks1)
+marks1.pop(1)
+print(marks1)
+marks1.remove(100)
+print(marks1)
+marks1.insert(1,100)
