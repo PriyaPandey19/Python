@@ -41,3 +41,11 @@ programmingSet = set(languages)
 print(type(programmingSet))
 print(programmingSet)   
 print("Divya knows these programming language", len(programmingSet))
+
+#hw
+dictionary = {
+    "snobish": "nakhrebaaz",
+    "propaganda": "maybe false news",
+    "narcissts": "self obsessed"
+}
+print(dictionary)
