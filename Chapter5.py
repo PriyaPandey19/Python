@@ -30,3 +30,14 @@ print(marks)
 food={"paneer","sandwitch","burger","pizza"}
 print(type(food))
 print(food)
+food.add("kunafa")
+print(food)
+food.remove("sandwitch")
+print(food)
+
+languages = ["python","java","c++","python","java","c"]
+print(type(languages))
+programmingSet = set(languages)
+print(type(programmingSet))
+print(programmingSet)   
+print("Divya knows these programming language", len(programmingSet))
