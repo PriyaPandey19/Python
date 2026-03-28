@@ -45,3 +45,5 @@ foodList.append(food3)
 
 print(foodList)
 print(len(foodList))
+
+#tuple method
