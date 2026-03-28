@@ -24,3 +24,9 @@ marks["Maths"] = 98
 marks["Chemistry"]=89
 marks["Physics"]=88
 print(marks)
+
+
+#set
+food={"paneer","sandwitch","burger","pizza"}
+print(type(food))
+print(food)
