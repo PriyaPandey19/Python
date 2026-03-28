@@ -49,3 +49,11 @@ dictionary = {
     "narcissts": "self obsessed"
 }
 print(dictionary)
+
+
+numbers1 = {2,3,4,1}
+numbers2 = {5,6,7,1}
+numbers3 = numbers1.union(numbers2)
+print(numbers3)
+numbers4 = numbers1.intersection(numbers2)
+print(numbers4)
