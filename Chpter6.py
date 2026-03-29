@@ -26,3 +26,12 @@ while n>=1:
 
 print("Sum=", sum)
 print("n= ",n)    
+
+
+
+#print star pattern
+
+n =1
+while n<=4:
+    print("*" * n)
+    n+=1
