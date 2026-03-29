@@ -49,4 +49,14 @@ num = int(input("Enter the number:"))
 while i<=10:
     print(f"{num} X {i} = {num*i}")
     i+=1    
+
+
+#for loop
+foodList=["cake","mango","pizza"]
+for item in foodList:
+    print(item)
+
+collegeList =("NIT-Delhi","Global","IIT-D")
+for eachItem in collegeList:
+    print(collegeList)    
     
