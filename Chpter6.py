@@ -56,7 +56,8 @@ foodList=["cake","mango","pizza"]
 for item in foodList:
     print(item)
 
+
 collegeList =("NIT-Delhi","Global","IIT-D")
 for eachItem in collegeList:
-    print(collegeList)    
+    print(eachItem)    
     
