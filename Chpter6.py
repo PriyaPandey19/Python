@@ -60,4 +60,10 @@ for item in foodList:
 collegeList =("NIT-Delhi","Global","IIT-D")
 for eachItem in collegeList:
     print(eachItem)    
+
+
+
+#for with range
+for item in range(1, 8, 1):
+    print(item)
     
