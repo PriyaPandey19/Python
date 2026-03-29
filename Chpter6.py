@@ -71,3 +71,14 @@ for item in range(1, 8, 1):
 
 for number in range(2, 20, 2):
     print(number)
+    print("This is done")
+
+
+p=1
+while(p<=50):
+    if(p%5 == 0):
+        print("Priya Pandey")
+    else:
+        print(p)
+    p+=1    
+           
