@@ -67,3 +67,7 @@ for eachItem in collegeList:
 for item in range(1, 8, 1):
     print(item)
     
+
+
+for number in range(2, 20, 2):
+    print(number)
