@@ -42,4 +42,11 @@ k = 1
 while k<=5:
     print(k, "Priya Pandey")
     k+=1
+
+#print multiplication table
+i=1
+num = int(input("Enter the number:"))
+while i<=10:
+    print(f"{num} X {i} = {num*i}")
+    i+=1    
     
