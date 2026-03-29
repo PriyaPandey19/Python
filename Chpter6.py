@@ -35,3 +35,11 @@ n =1
 while n<=4:
     print("*" * n)
     n+=1
+
+
+#print number inforont of name
+k = 1
+while k<=5:
+    print(k, "Priya Pandey")
+    k+=1
+    
