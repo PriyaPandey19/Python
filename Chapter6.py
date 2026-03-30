@@ -82,3 +82,8 @@ while(p<=50):
         print(p)
     p+=1    
            
+
+#square root
+for item in range(1, 10, 1):
+    print()
+           
