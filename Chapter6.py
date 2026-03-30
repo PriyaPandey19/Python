@@ -91,4 +91,12 @@ for item in range(1, 11, 1):
 n = int(input("Enter the number for table"))
 for i in range(1, 11, 1):
     print(n, "*", i, "=", n*i)
+
+
+for j in range(100, 1 , -1):
+    print(j)  
+
+name = "Priya Pandey"
+for k in range(1, 6, 1):
+    print(name.upper())      
            
