@@ -84,6 +84,11 @@ while(p<=50):
            
 
 #square root
-for item in range(1, 10, 1):
-    print()
+for item in range(1, 11, 1):
+    print(item ** 2)
+
+
+n = int(input("Enter the number for table"))
+for i in range(1, 11, 1):
+    print(n, "*", i, "=", n*i)
            
