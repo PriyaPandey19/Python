@@ -100,3 +100,15 @@ name = "Priya Pandey"
 for k in range(1, 6, 1):
     print(name.upper())      
            
+
+#happy new year
+import time 
+
+count = int(input("Enter the countdown"))
+
+print("Count Down Start now")
+for i in range(count, 0, -1):
+    print(i)
+    time.sleep(1)
+
+print("HAPPY NEW YEAR")
