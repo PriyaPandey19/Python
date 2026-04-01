@@ -11,6 +11,11 @@ sumFunc()
 def welcome_message():
     print("Welcome to Python Programming")
 
-welcome_message()    
+welcome_message()   
+
+
+#quote
+def inspire():
+    print("Success doesn’t come from what you do occasionally, it comes from what you do consistently. Priya")
 
 
