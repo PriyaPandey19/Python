@@ -24,3 +24,6 @@ inspire()
 #food morning 
 def good_morning():
     print("Good Moening, Saumya!")
+
+good_morning()
+good_morning()
