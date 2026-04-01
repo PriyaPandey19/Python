@@ -70,3 +70,24 @@ def square(num=10):
 
 print(square(3))
 
+
+
+#count consonent and vowel
+def func(userInput):
+    vowels ="aeiouAEIOU"
+
+    countVowel = 0
+    countConsonent = 0
+
+    for eachChar in userInput:
+        if(eachChar.isalpha()):
+            if(eachChar in vowels):
+                countVowel = countVowel +1
+            else:
+                countConsonent = countConsonent +1    
+
+    return countConsonent, countVowel   
+
+#function Call
+consonent, vowel = func("Priya Pandey")
+print(consonent, vowel)         
