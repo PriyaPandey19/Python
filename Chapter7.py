@@ -18,4 +18,4 @@ welcome_message()
 def inspire():
     print("Success doesn’t come from what you do occasionally, it comes from what you do consistently. Priya")
 
-
+inspire()
