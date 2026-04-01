@@ -90,4 +90,16 @@ def func(userInput):
 
 #function Call
 consonent, vowel = func("Priya Pandey")
-print(consonent, vowel)         
+print(consonent, vowel)
+
+
+#function that convert to upper
+def convert_to_upper(word):
+    upperWord = word.upper()
+    return upperWord 
+
+print(convert_to_upper("nimisha"))   
+
+
+
+
