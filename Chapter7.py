@@ -19,3 +19,8 @@ def inspire():
     print("Success doesn’t come from what you do occasionally, it comes from what you do consistently. Priya")
 
 inspire()
+
+
+#food morning 
+def good_morning():
+    print("Good Moening, Saumya!")
