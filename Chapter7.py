@@ -48,3 +48,25 @@ def show_age(name="Saumya Singh", age=25):
     print(f"{name} is {age} years old")
 
 show_age("Priya Pandey",21)    
+
+
+#fav food
+def fav_food(food):
+    print(f"Saumya loves {food}")
+
+fav_food("pizza")
+
+
+#return function
+def multipy(a=10, b=10):
+    return a*b
+
+result = multipy()
+print(result)
+
+#sqrt num
+def square(num=10):
+    return num**2
+
+print(square(3))
+
