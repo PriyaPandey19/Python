@@ -27,3 +27,17 @@ def good_morning():
 
 good_morning()
 good_morning()
+
+
+
+
+
+
+#function with params and argument
+def average(a,b):
+    averageValue= (a+b)/2
+    print(averageValue)
+
+average(5, 10)
+average(7, 10)
+average(80, 98)    
