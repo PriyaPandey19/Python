@@ -1,5 +1,5 @@
 #expense tracker 
-expenses = []
+expensesList = []
 print("Welcome to Expense Tracker: Kharcha kam kiya karo")
 
 while True:
@@ -12,11 +12,15 @@ while True:
     choice = int(input("Please Enter Your Choice: "))
 
     if(choice == 1):
-        date= input("Whicj date: ")
+        date= input("Which date: ")
         category= input("Which category(food, travel, books): ")
         description=input("In details:")
-        amount= input("Enter the amount: ")
-
+        amount_input = input("Enter the amount: ")
+        try:
+            amount = float(amount_input)
+        except ValueError:
+            print("Invalid amount entered. Please enter a number.")
+            continue
 
         expense={
             "date": date,
@@ -25,18 +29,39 @@ while True:
             "amount": amount
         }
 
-        expenses.append(expense)
+        expensesList.append(expense)
         print("\n DONE bro. Expense is added successfully..")
 
 
 
 #2. VIEW ALL EXPENSES 
-    if(choice == 2):
-        if(len(expenses) == 0):
+    elif(choice == 2):
+        if(len(expensesList) == 0):
             print("No Expenses Added.")
         else:
             print("=== This is all your expense ===")
             count=1
-            for eachkharcha in expenses:
-                print(f"Expense Number {count} => {eachkharcha["date"]}, {eachkharcha[category]}, {eachkharcha["description"]}, {eachkharcha["amount"]}")  
+            for eachkharcha in expensesList:
+                print(f"Expense Number {count} => {eachkharcha["date"]}, {eachkharcha["category"]}, {eachkharcha["description"]}, {eachkharcha["amount"]}")  
                 count= count+1 
+
+#3. View All Spending
+    elif(choice == 3):
+        total=0
+        for eachkarcha in expensesList:
+            total = total + eachkarcha["amount"]
+
+        print("\n TOTAL KHARCHA =", total)
+
+
+#4 EXIT
+    elif(choice == 4):
+        print("Thank You")
+        break
+
+    else:
+        print("Invalid Choice. TRY AGAIN")
+
+
+
+                
