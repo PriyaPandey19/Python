@@ -1,4 +1,10 @@
 file = open("mast.txt", "r")
-data = file.read()
+dataOfFile = file.read()
 
-print("Data of the file is ", data)
+dataOfFile = dataOfFile.lower()
+
+if "live" in dataOfFile:
+    print("Yes live word is present in the file")
+else:
+    print("No")    
+
