@@ -7,7 +7,10 @@ def sumFunc():
 
 sumFunc()    
 
+#welcome message
 def welcome_message():
     print("Welcome to Python Programming")
 
- 
+welcome_message()    
+
+
