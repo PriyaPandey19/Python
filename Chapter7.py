@@ -41,3 +41,10 @@ def average(a,b):
 average(5, 10)
 average(7, 10)
 average(80, 98)    
+
+
+#show anme and age
+def show_age(name="Saumya Singh", age=25):
+    print(f"{name} is {age} years old")
+
+show_age("Priya Pandey",21)    
