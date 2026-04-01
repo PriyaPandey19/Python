@@ -101,5 +101,11 @@ def convert_to_upper(word):
 print(convert_to_upper("nimisha"))   
 
 
+#function to join fast name and last name
+def combine(fname, lname):
+    fullName = fname + lname
+    return fullName
 
+print(combine("priya", "pandey"))
+ 
 
