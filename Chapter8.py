@@ -27,7 +27,11 @@ with open("report.txt", "r") as f:
     #print("Line 2",line2)
     #print("Line 3", line3)
 
+#with open("newTextFile.txt", "r") as f:
+ #   line = f.readlines()
+  #  print(line)
+
 with open("newTextFile.txt", "r") as f:
-    line = f.readlines()
-    print(line)
+    lengthOfFile = f.readlines()
+    print("Output of readlines", len(lengthOfFile))
 
