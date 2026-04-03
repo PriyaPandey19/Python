@@ -10,5 +10,10 @@ else:
 
 #file opening in write mode
 
-file = open("report.txt", "w")
-file.write("Learning python Having lot of fun....")
+#file = open("report.txt", "w")
+#file.write("Learning python Having lot of fun....")
+
+#with keyword
+with open("report.txt", "r") as f:
+    data = f.read()
+    print("file data:", data)
