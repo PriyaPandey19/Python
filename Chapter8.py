@@ -8,3 +8,7 @@ if "live" in dataOfFile:
 else:
     print("No")    
 
+#file opening in write mode
+
+file = open("report.txt", "w")
+file.write("Learning python Having lot of fun....")
