@@ -50,10 +50,13 @@ root.config(menu=menu)
 file_menu= tk.Menu(menu)
 
 #new, open file, save, exit
-file_menu.add_cascade("New", command=new_file)
-file_menu.add_cascade("Open", command=open_file)
-file_menu.add_cascade("Save", command=save_file)
+
+menu.add_cascade(label="File", menu=file_menu)
+
+file_menu.add_command(label="New", command=new_file)
+file_menu.add_command(label="Open", command=open_file)
+file_menu.add_command(label="Save", command=save_file)
 file_menu.add_separator()
-file_menu.add_cascade("Exit", command=root.quit)
+file_menu.add_command(label="Exit", command=root.quit)
 
 root.mainloop()
