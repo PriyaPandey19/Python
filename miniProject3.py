@@ -9,7 +9,7 @@ root.geometry("800x600")
 text = tk.Text(
     root,
     wrap=tk.WORD,
-    font=("Helveltica",12)
+    font=("Helveltica",18)
 )
 
 text.pack(expand=True,fill=tk.BOTH)
