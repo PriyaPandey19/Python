@@ -25,4 +25,35 @@ def open_file():
         filetypes=[("Text Files", "*.txt")]
     )    
 
+    if file_path:
+        with open(file_path, "r") as file:
+            text.delete(1.0, tk.END)
+            text.insert(tk.END, file.read())
+
+#function 3 save the file
+def save_file():
+    file_path = filedialog.asksaveasfilename(
+        defaultextension=".txt",
+        filetypes=[("Text Files", "*.txt")]
+
+    )
+
+    if file_path:
+        with open(file_path, "w") as file:
+            file.write(text.get(1.0, tk.END)) 
+
+    messagebox.showinfo("Info","File saved successfully")   
+
+#menu
+menu = tk.Menu(root)
+root.config(menu=menu)
+file_menu= tk.Menu(menu)
+
+#new, open file, save, exit
+file_menu.add_cascade("New", command=new_file)
+file_menu.add_cascade("Open", command=open_file)
+file_menu.add_cascade("Save", command=save_file)
+file_menu.add_separator()
+file_menu.add_cascade("Exit", command=root.quit)
+
 root.mainloop()
