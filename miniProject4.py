@@ -6,7 +6,7 @@ from PIL import Image, ImageTk
 #main application window
 root= tk.Tk()
 root.title("Photo Slideshow Album")
-root.geometry("900x900")
+root.geometry("1000x1000")
 
 
 
@@ -45,7 +45,7 @@ def start_slideshow():
         image_label.config(image=photo)
         image_label.image= photo
         root.update()
-        time.sleep(2)
+        time.sleep(1)
 
 #button
 play_button = tk.Button(
